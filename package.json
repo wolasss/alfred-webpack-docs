@@ -1,0 +1,26 @@
+{
+  "name": "alfred-webpack-docs",
+  "version": "1.0.0",
+  "description": "Workflow for searching through webpack documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": {
+    "name": "Adam Wolski",
+    "email": "kontakt@adamwolski.com",
+    "url": "http://adamwolski.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolasss/alfred-webpack-docs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "html-entities": "^1.2.0",
+    "merge": "^1.2.0"
+  }
+}
